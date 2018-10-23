@@ -10,3 +10,9 @@ describe('HelloWorld.vue', () => {
     expect(wrapper.text()).toMatch(msg)
   })
 })
+
+describe('HelloWorld.vue', () => {
+  it('エラーにする', () => {
+    expect("a").toMatch("b")
+  })
+})
